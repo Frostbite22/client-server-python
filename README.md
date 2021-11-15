@@ -2,12 +2,41 @@
 ### This is a client-server project using python and socket library 
 
 ### Part 1 : UDP TCP Simple Server-Client
-To use TCP protocol use :
+
+Functions to use UDP protocol use : 
+
 ```
-socket(socket.AF_INET, socket.SOCK_STREAM)
+socket(socket.AF_INET, socket.SOCK_DGRAM) -> socket
+```
+```
+socket.bind((HOST, PORT))
+```
+```
+socket.sendto(byte(message),tuple(HOST,PORT))
+```
+```
+socket.recvfrom(size)
 ```
 
-To use UDP protocol use : 
+Functions to use TCP protocol use :
 ```
-socket(socket.AF_INET, socket.SOCK_DGRAM)
+socket(socket.AF_INET, socket.SOCK_STREAM) -> socket
+```
+```
+socket.bind((HOST, PORT))
+```
+```
+socket.listen()
+```
+```
+socket.accept() -> (connection,address)
+```
+
+socket.connect((HOST, PORT))
+```
+```
+connetion.sendall(byte(message))
+```
+```
+connection.recv(size) -> data[byte]
 ```
