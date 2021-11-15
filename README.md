@@ -31,7 +31,7 @@ socket.listen()
 ```
 socket.accept() -> (connection,address)
 ```
-
+```
 socket.connect((HOST, PORT))
 ```
 ```
