@@ -52,4 +52,8 @@ or
 ```
 sudo systemctl [service_name] start 
 ```
+Pass the host and the login to the fingerclient 
+```
+python3 ./fingerclient.py --login root --host 127.0.0.1
+```
 
