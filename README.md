@@ -40,3 +40,16 @@ connetion.sendall(byte(message))
 ```
 connection.recv(size) -> data[byte]
 ```
+### part 2 : finger 
+In computer networking, the Name/Finger protocol and the Finger user information protocol are simple network protocols for the exchange of human-oriented status and user information.
+port number on etc/services : 79/TCP
+
+To start a service from etc/init.d 
+```
+sudo service [service_name] start 
+``` 
+or 
+```
+sudo systemctl [service_name] start 
+```
+
