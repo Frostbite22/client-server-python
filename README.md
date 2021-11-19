@@ -56,4 +56,14 @@ Pass the host and the login to the fingerclient
 ```
 python3 ./fingerclient.py --login root --host 127.0.0.1
 ```
-
+### part 3 : RPC 
+server side 
+```
+rfoo.InetServer(MyHandler).start()
+```
+client side 
+```
+c = rfoo.InetConnection().connect()
+rfoo.Proxy(c).add(2,3)
+```
+Note : rfoo library is deprecated 
