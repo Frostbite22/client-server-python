@@ -108,9 +108,5 @@ After that, all other commands can be entered through the client. Messages will 
 ```
 Enter a command: UPLD my_file.mp4
 ```
-All standard file paths also work:
-```
-Enter a command: UPLD C:\Users\...\folder\my_file.mp4
-```
 
 When the server receives a file, it puts it in the same folder that it is in. Likewise, when the LIST command is used the server searches for files in the same folder that it is located in.
