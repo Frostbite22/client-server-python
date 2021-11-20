@@ -111,7 +111,8 @@ Enter a command: UPLD my_file.mp4
 
 When the server receives a file, it puts it in the same folder that it is in. Likewise, when the LIST command is used the server searches for files in the same folder that it is located in.
 
-### Part 5 : Twitter API 
+### Part 5 : Twitter API 
+
 We can use Requests library to make get and post requests
 Request (REQ) to the twitter API using the URI given 
 Headers (HEADERS) are the authorization setting (OAuth2 / OAuth1.0a) 
