@@ -1,5 +1,9 @@
 import rfoo
+handler = rfoo.connect(host='127.0.0.1',port=rfoo.DEFAULT_PORT)
+# c = rfoo.InetConnection().connect()
+# fun=rfoo.Proxy(handler)
 
-c = rfoo.InetConnection().connect()
-rfoo.Proxy(c).add(2,3)
+func = rfoo.Proxy(handler)
+print(func.add(2,3))
+
 

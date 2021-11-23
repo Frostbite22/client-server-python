@@ -1,4 +1,4 @@
-# This project is made by Andaloussi Mohamed Fares and Mohamed Amine Guessmi
+# This is an academic project made by Andaloussi Mohamed Fares 
 ### This is a client-server project using python and socket library 
 
 ### Part 1 : UDP TCP Simple Server-Client

@@ -6,7 +6,7 @@ t = Twitter(auth=OAuth('1229189739863068673-592ltN2QvlMXHRlx1qpX71NiWmhhUe',
                     'Zk1N2oUCfPugrdGKMtjJ4h3fcFr08hYiH8O4egdAswI1PcAYHi'))
 
 t.statuses.update(
-    status=" From python twitter API.")
+    status=" From python twitter API. evaluation")
 
 
 print(t.statuses.home_timeline())
